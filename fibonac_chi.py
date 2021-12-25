@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[56]:
-
-
 import itertools
 class Fib:    
 
@@ -24,14 +18,10 @@ class Fib:
         return Fib._Fib_iter()
 
 
-# In[58]:
-
-
 f = Fib()
 print(list(itertools.islice(Fib(), 100)))
 
 
-# In[ ]:
 
 
 
