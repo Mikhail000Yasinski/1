@@ -109,7 +109,7 @@ class GenAlg:
     def mutation(self, _l, mutation_chance):
         '''
         Мутирование!
-        Изменяем хромосомы, полученных особей.
+        Изменяем хромосомы полученных особей.
         '''
         mutation_chance = mutation_chance * 10 
         for i, chromosome in enumerate(_l):
